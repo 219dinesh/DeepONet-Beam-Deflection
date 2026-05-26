@@ -1,7 +1,6 @@
 This project is super lightweight. You only need these three:
 
-``` plaintext
 torch
 numpy
 matplotlib
-```
+
