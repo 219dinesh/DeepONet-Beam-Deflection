@@ -65,9 +65,9 @@ python src/train.py
 
 Outputs: 
 ```
-* saved_models/crack_detector_with_validation_cnn.pth
+ saved_models/crack_detector_with_validation_cnn.pth
 
-* output_graphs/training_validation_metrics.png
+ output_graphs/training_validation_metrics.png
 ```
 
 2. Running Inference
