@@ -63,9 +63,11 @@ Because the data is generated mathematically using numpy, no external dataset do
 python src/train.py
 ```
 
-```Outputs: * saved_models/crack_detector_with_validation_cnn.pth
+Outputs: 
+```
+* saved_models/crack_detector_with_validation_cnn.pth
 
-  output_graphs/training_validation_metrics.png
+* output_graphs/training_validation_metrics.png
 ```
 
 2. Running Inference
