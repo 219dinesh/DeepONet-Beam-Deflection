@@ -12,8 +12,7 @@ num_sensors = 10
 p_features = 100
 
 # Initialize the empty skeleton
-model = DeepONet(num_sensors, p_features)
-model = CrackDetectorCNN().to(device)
+model = DeepONet(num_sensors, p_features).to(device)
 model_path = "../saved_models/deeponet_beam_model.pth" 
 
 # Load the saved weights into the skeleton
