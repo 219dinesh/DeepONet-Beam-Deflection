@@ -3,7 +3,7 @@
 ![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
 
-A physics-informed operator learning framework utilizing a **DeepONet** architecture to predict the continuous deflection curve of a simply supported Euler-Bernoulli beam under arbitrary loading conditions.
+A Deep Operator Network architecture to predict the continuous deflection curve of a simply supported Euler-Bernoulli beam under arbitrary loading conditions.
 
 Instead of learning a single function mapping, this network learns the *operator* mapping the applied load profile $q(x)$ directly to the deflection solution $w(x)$.
 
